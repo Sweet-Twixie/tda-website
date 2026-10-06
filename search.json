@@ -1,0 +1,496 @@
+[
+  {
+    "objectID": "course/02-datasets.html",
+    "href": "course/02-datasets.html",
+    "title": "2. Potential datasets",
+    "section": "",
+    "text": "Data type\nExample dataset\nWhat topology might show\n\n\n\n\nPoint clouds\n✏️\n✏️\n\n\nImages\n✏️\n✏️\n\n\nTime series\n✏️\n✏️\n\n\nNetworks\n✏️\n✏️\n✏️ Add notes on each dataset: size, licence, how to load it.",
+    "crumbs": [
+      "Course",
+      "2. Potential datasets"
+    ]
+  },
+  {
+    "objectID": "course/02-datasets.html#code-and-resources",
+    "href": "course/02-datasets.html#code-and-resources",
+    "title": "2. Potential datasets",
+    "section": "Code and resources",
+    "text": "Code and resources\n\nRepository: github.com/Sweet-Twixie",
+    "crumbs": [
+      "Course",
+      "2. Potential datasets"
+    ]
+  },
+  {
+    "objectID": "course/04-maths/persistent-homology.html",
+    "href": "course/04-maths/persistent-homology.html",
+    "title": "Persistent homology",
+    "section": "",
+    "text": "A filtration is a nested sequence of complexes \n\\emptyset = K_0 \\subseteq K_1 \\subseteq \\dots \\subseteq K_n = K.\n\nFor a point cloud X, the Vietoris–Rips complex \\mathrm{VR}_r(X) contains a simplex for every finite set of points with pairwise distances at most r. Increasing r gives a filtration.",
+    "crumbs": [
+      "Course",
+      "4. The maths",
+      "Persistent homology"
+    ]
+  },
+  {
+    "objectID": "course/04-maths/persistent-homology.html#filtrations",
+    "href": "course/04-maths/persistent-homology.html#filtrations",
+    "title": "Persistent homology",
+    "section": "",
+    "text": "A filtration is a nested sequence of complexes \n\\emptyset = K_0 \\subseteq K_1 \\subseteq \\dots \\subseteq K_n = K.\n\nFor a point cloud X, the Vietoris–Rips complex \\mathrm{VR}_r(X) contains a simplex for every finite set of points with pairwise distances at most r. Increasing r gives a filtration.",
+    "crumbs": [
+      "Course",
+      "4. The maths",
+      "Persistent homology"
+    ]
+  },
+  {
+    "objectID": "course/04-maths/persistent-homology.html#persistent-homology-groups",
+    "href": "course/04-maths/persistent-homology.html#persistent-homology-groups",
+    "title": "Persistent homology",
+    "section": "Persistent homology groups",
+    "text": "Persistent homology groups\nInclusions induce maps H_k(K_i) \\to H_k(K_j) for i \\le j. The persistent homology groups are their images: \nH_k^{i,j} = \\operatorname{im}\\big( H_k(K_i) \\to H_k(K_j) \\big).\n\nEach homology class has a birth and a death. The multiset of pairs (b, d) is the persistence diagram; drawn as intervals, it is the barcode.\n✏️ Add a worked example and pictures.",
+    "crumbs": [
+      "Course",
+      "4. The maths",
+      "Persistent homology"
+    ]
+  },
+  {
+    "objectID": "course/04-maths/persistent-homology.html#code-and-resources",
+    "href": "course/04-maths/persistent-homology.html#code-and-resources",
+    "title": "Persistent homology",
+    "section": "Code and resources",
+    "text": "Code and resources\n\nRepository: github.com/Sweet-Twixie",
+    "crumbs": [
+      "Course",
+      "4. The maths",
+      "Persistent homology"
+    ]
+  },
+  {
+    "objectID": "course/04-maths/stability.html",
+    "href": "course/04-maths/stability.html",
+    "title": "Stability",
+    "section": "",
+    "text": "For diagrams D_1, D_2, the bottleneck distance is \nd_B(D_1, D_2) = \\inf_{\\gamma} \\sup_{x \\in D_1} \\lVert x - \\gamma(x) \\rVert_\\infty,\n where \\gamma ranges over bijections between the diagrams (points may be matched to the diagonal).",
+    "crumbs": [
+      "Course",
+      "4. The maths",
+      "Stability"
+    ]
+  },
+  {
+    "objectID": "course/04-maths/stability.html#the-bottleneck-distance",
+    "href": "course/04-maths/stability.html#the-bottleneck-distance",
+    "title": "Stability",
+    "section": "",
+    "text": "For diagrams D_1, D_2, the bottleneck distance is \nd_B(D_1, D_2) = \\inf_{\\gamma} \\sup_{x \\in D_1} \\lVert x - \\gamma(x) \\rVert_\\infty,\n where \\gamma ranges over bijections between the diagrams (points may be matched to the diagonal).",
+    "crumbs": [
+      "Course",
+      "4. The maths",
+      "Stability"
+    ]
+  },
+  {
+    "objectID": "course/04-maths/stability.html#the-stability-theorem",
+    "href": "course/04-maths/stability.html#the-stability-theorem",
+    "title": "Stability",
+    "section": "The stability theorem",
+    "text": "The stability theorem\nFor tame functions f, g on a triangulable space (Cohen-Steiner, Edelsbrunner and Harer, 2007): \nd_B\\big(\\mathrm{Dgm}(f), \\mathrm{Dgm}(g)\\big) \\le \\lVert f - g \\rVert_\\infty.\n\n✏️ Explain what this means for noisy data, and mention Wasserstein distances.",
+    "crumbs": [
+      "Course",
+      "4. The maths",
+      "Stability"
+    ]
+  },
+  {
+    "objectID": "course/04-maths/stability.html#code-and-resources",
+    "href": "course/04-maths/stability.html#code-and-resources",
+    "title": "Stability",
+    "section": "Code and resources",
+    "text": "Code and resources\n\nRepository: github.com/Sweet-Twixie",
+    "crumbs": [
+      "Course",
+      "4. The maths",
+      "Stability"
+    ]
+  },
+  {
+    "objectID": "course/05-notebooks/first-persistence-diagram.html",
+    "href": "course/05-notebooks/first-persistence-diagram.html",
+    "title": "First persistence diagram",
+    "section": "",
+    "text": "We sample points from a circle, add noise, and compute persistent homology. We expect one long bar in H_1: the circle’s loop.\nimport numpy as np\nimport matplotlib.pyplot as plt\nfrom ripser import ripser\nfrom persim import plot_diagrams\n\nrng = np.random.default_rng(0)\ntheta = rng.uniform(0, 2 * np.pi, 200)\nX = np.c_[np.cos(theta), np.sin(theta)] + rng.normal(scale=0.1, size=(200, 2))\n\ndgms = ripser(X, maxdim=1)[\"dgms\"]\n\nfig, axes = plt.subplots(1, 2, figsize=(9, 4))\naxes[0].scatter(X[:, 0], X[:, 1], s=8, color=\"#6E4224\")\naxes[0].set_aspect(\"equal\")\naxes[0].set_title(\"Point cloud\")\nplot_diagrams(dgms, ax=axes[1], show=False)\naxes[1].set_title(\"Persistence diagram\")\nplt.tight_layout()",
+    "crumbs": [
+      "Course",
+      "5. Notebooks",
+      "First persistence diagram"
+    ]
+  },
+  {
+    "objectID": "course/05-notebooks/first-persistence-diagram.html#what-to-notice",
+    "href": "course/05-notebooks/first-persistence-diagram.html#what-to-notice",
+    "title": "First persistence diagram",
+    "section": "What to notice",
+    "text": "What to notice\n✏️ Explain the one H₁ point far from the diagonal, and the H₀ points.",
+    "crumbs": [
+      "Course",
+      "5. Notebooks",
+      "First persistence diagram"
+    ]
+  },
+  {
+    "objectID": "course/05-notebooks/first-persistence-diagram.html#code-and-resources",
+    "href": "course/05-notebooks/first-persistence-diagram.html#code-and-resources",
+    "title": "First persistence diagram",
+    "section": "Code and resources",
+    "text": "Code and resources\n\nRun it yourself: GitHub repository",
+    "crumbs": [
+      "Course",
+      "5. Notebooks",
+      "First persistence diagram"
+    ]
+  },
+  {
+    "objectID": "course/index.html",
+    "href": "course/index.html",
+    "title": "Course overview",
+    "section": "",
+    "text": "This course is written to be read in order, but each module stands on its own. Use the menu on the left to jump around; sections open when you click them.",
+    "crumbs": [
+      "Course",
+      "Course overview"
+    ]
+  },
+  {
+    "objectID": "course/index.html#how-the-course-is-organised",
+    "href": "course/index.html#how-the-course-is-organised",
+    "title": "Course overview",
+    "section": "How the course is organised",
+    "text": "How the course is organised\n\nIs TDA applicable? Where topological methods have earned their place in research and industry, and where they haven’t.\nPotential datasets Point clouds, images, time series and networks to practise on.\nWhat TDA extracts An intuitive picture of connected components, loops and voids, before any algebra.\nThe maths Algebraic topology, persistent homology, stability, and turning diagrams into features.\nNotebooks Python notebooks that put each idea into practice.",
+    "crumbs": [
+      "Course",
+      "Course overview"
+    ]
+  },
+  {
+    "objectID": "course/index.html#what-you-need",
+    "href": "course/index.html#what-you-need",
+    "title": "Course overview",
+    "section": "What you need",
+    "text": "What you need\nComfort with linear algebra and some Python. The algebraic topology is introduced from scratch.\n\n\n\n\n\n\nNoteEach lesson includes\n\n\n\nA short video, written notes, and a link to the code on GitHub.",
+    "crumbs": [
+      "Course",
+      "Course overview"
+    ]
+  },
+  {
+    "objectID": "course/01-applicability/industry.html",
+    "href": "course/01-applicability/industry.html",
+    "title": "TDA in industry",
+    "section": "",
+    "text": "✏️ Write here.",
+    "crumbs": [
+      "Course",
+      "1. Is TDA applicable?",
+      "TDA in industry"
+    ]
+  },
+  {
+    "objectID": "course/01-applicability/industry.html#use-cases",
+    "href": "course/01-applicability/industry.html#use-cases",
+    "title": "TDA in industry",
+    "section": "",
+    "text": "✏️ Write here.",
+    "crumbs": [
+      "Course",
+      "1. Is TDA applicable?",
+      "TDA in industry"
+    ]
+  },
+  {
+    "objectID": "course/01-applicability/industry.html#limitations",
+    "href": "course/01-applicability/industry.html#limitations",
+    "title": "TDA in industry",
+    "section": "Limitations",
+    "text": "Limitations\n✏️ Computational cost, interpretability, how to explain a persistence diagram to a stakeholder.",
+    "crumbs": [
+      "Course",
+      "1. Is TDA applicable?",
+      "TDA in industry"
+    ]
+  },
+  {
+    "objectID": "course/01-applicability/industry.html#code-and-resources",
+    "href": "course/01-applicability/industry.html#code-and-resources",
+    "title": "TDA in industry",
+    "section": "Code and resources",
+    "text": "Code and resources\n\nRepository: github.com/Sweet-Twixie",
+    "crumbs": [
+      "Course",
+      "1. Is TDA applicable?",
+      "TDA in industry"
+    ]
+  },
+  {
+    "objectID": "course/03-intuition.html",
+    "href": "course/03-intuition.html",
+    "title": "3. What TDA extracts",
+    "section": "",
+    "text": "Imagine drawing a ball of radius r around every data point and slowly increasing r.\nFeatures that survive for a long range of r are likely to be real structure; short-lived ones are usually noise. Recording every birth and death gives a persistence barcode or persistence diagram.\n✏️ Add figures or an animation here.",
+    "crumbs": [
+      "Course",
+      "3. What TDA extracts"
+    ]
+  },
+  {
+    "objectID": "course/03-intuition.html#code-and-resources",
+    "href": "course/03-intuition.html#code-and-resources",
+    "title": "3. What TDA extracts",
+    "section": "Code and resources",
+    "text": "Code and resources\n\nRepository: github.com/Sweet-Twixie",
+    "crumbs": [
+      "Course",
+      "3. What TDA extracts"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Shape of Data",
+    "section": "",
+    "text": "Shape of Data\n\nA course and blog on topological data analysis: the maths behind persistent homology, and how to use it on real data.\n\n\nStart the course Read the blog\n\n\n  \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    H₀\n    H₁\n  \n  A persistence barcode of a noisy circle: one loop outlives everything else.\n\n\n\nCourse\nFrom whether TDA is worth using, through the algebraic topology, to working Python notebooks.\n\n\nBlog\nShorter posts on papers, experiments and applications.\n\n\nArticles\nA searchable list of TDA papers, filterable by topic.\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Why I’m writing about topological data analysis\n\n\n\nmeta\n\n\n\nWhat this site is for and how it’s organised.\n\n\n\n\n\n6 Oct 2026\n\n\nYuliia Bykhovets\n\n\n\n\n\nNo matching items\n Back to top"
+  },
+  {
+    "objectID": "blog/posts/2026-10-06-welcome/index.html",
+    "href": "blog/posts/2026-10-06-welcome/index.html",
+    "title": "Why I’m writing about topological data analysis",
+    "section": "",
+    "text": "This is a placeholder first post. Replace it with your own introduction.\nPosts are plain Markdown, so you can write maths inline like \\beta_1 = 1 or in display:\n\nH_k(K) = \\ker \\partial_k \\,/\\, \\operatorname{im} \\partial_{k+1}.\n\nYou can also embed a video:\n\nand link to code: GitHub repo.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "articles/index.html",
+    "href": "articles/index.html",
+    "title": "Articles",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Author\n      \n      \n        Year - Oldest\n      \n      \n        Year - Newest\n      \n      \n        Topic\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nYear\n\n\n\nTitle\n\n\n\nAuthor\n\n\n\nTopic\n\n\n\n\n\n\n\n\n2021\n\n\nAn introduction to topological data analysis: fundamental and practical aspects for data scientists\n\n\nChazal, Michel\n\n\nsurvey, machine learning\n\n\n\n\n\n\n2017\n\n\nA roadmap for the computation of persistent homology\n\n\nOtter, Porter, Tillmann, Grindrod, Harrington\n\n\ncomputation, survey\n\n\n\n\n\n\n2017\n\n\nPersistence images: a stable vector representation of persistent homology\n\n\nAdams et al.\n\n\nvectorisation, machine learning\n\n\n\n\n\n\n2015\n\n\nStatistical topological data analysis using persistence landscapes\n\n\nBubenik\n\n\nvectorisation, statistics\n\n\n\n\n\n\n2009\n\n\nTopology and data\n\n\nCarlsson\n\n\nsurvey\n\n\n\n\n\n\n2008\n\n\nBarcodes: the persistent topology of data\n\n\nGhrist\n\n\nsurvey\n\n\n\n\n\n\n2007\n\n\nStability of persistence diagrams\n\n\nCohen-Steiner, Edelsbrunner, Harer\n\n\nstability, foundations\n\n\n\n\n\n\n2005\n\n\nComputing persistent homology\n\n\nZomorodian, Carlsson\n\n\npersistent homology, computation\n\n\n\n\n\n\n2002\n\n\nTopological persistence and simplification\n\n\nEdelsbrunner, Letscher, Zomorodian\n\n\npersistent homology, foundations\n\n\n\n\n\n\nNo matching items\n Back to top"
+  },
+  {
+    "objectID": "course/01-applicability/index.html",
+    "href": "course/01-applicability/index.html",
+    "title": "1. Is TDA applicable?",
+    "section": "",
+    "text": "TDA is useful when the shape of data carries information that distances or averages miss: loops, clusters that merge and split, holes in a configuration space. This module looks at where that has paid off, and where simpler methods do just as well.",
+    "crumbs": [
+      "Course",
+      "1. Is TDA applicable?"
+    ]
+  },
+  {
+    "objectID": "course/01-applicability/index.html#when-to-reach-for-tda",
+    "href": "course/01-applicability/index.html#when-to-reach-for-tda",
+    "title": "1. Is TDA applicable?",
+    "section": "When to reach for TDA",
+    "text": "When to reach for TDA\n✏️ Write your criteria here: what properties of a problem suggest topology will help?",
+    "crumbs": [
+      "Course",
+      "1. Is TDA applicable?"
+    ]
+  },
+  {
+    "objectID": "course/01-applicability/index.html#code-and-resources",
+    "href": "course/01-applicability/index.html#code-and-resources",
+    "title": "1. Is TDA applicable?",
+    "section": "Code and resources",
+    "text": "Code and resources\n\nRepository: github.com/Sweet-Twixie",
+    "crumbs": [
+      "Course",
+      "1. Is TDA applicable?"
+    ]
+  },
+  {
+    "objectID": "course/01-applicability/research.html",
+    "href": "course/01-applicability/research.html",
+    "title": "TDA in research",
+    "section": "",
+    "text": "✏️ For each area: the question, the data, what topology added, and a key paper (add it to the Articles list).\n\nBiology and medicine\nMaterials science\nNeuroscience\nImage analysis",
+    "crumbs": [
+      "Course",
+      "1. Is TDA applicable?",
+      "TDA in research"
+    ]
+  },
+  {
+    "objectID": "course/01-applicability/research.html#areas-to-cover",
+    "href": "course/01-applicability/research.html#areas-to-cover",
+    "title": "TDA in research",
+    "section": "",
+    "text": "✏️ For each area: the question, the data, what topology added, and a key paper (add it to the Articles list).\n\nBiology and medicine\nMaterials science\nNeuroscience\nImage analysis",
+    "crumbs": [
+      "Course",
+      "1. Is TDA applicable?",
+      "TDA in research"
+    ]
+  },
+  {
+    "objectID": "course/01-applicability/research.html#code-and-resources",
+    "href": "course/01-applicability/research.html#code-and-resources",
+    "title": "TDA in research",
+    "section": "Code and resources",
+    "text": "Code and resources\n\nRepository: github.com/Sweet-Twixie",
+    "crumbs": [
+      "Course",
+      "1. Is TDA applicable?",
+      "TDA in research"
+    ]
+  },
+  {
+    "objectID": "course/05-notebooks/index.html",
+    "href": "course/05-notebooks/index.html",
+    "title": "5. Notebooks",
+    "section": "",
+    "text": "Each notebook can be read here or run yourself from the repository.",
+    "crumbs": [
+      "Course",
+      "5. Notebooks"
+    ]
+  },
+  {
+    "objectID": "course/05-notebooks/index.html#code-and-resources",
+    "href": "course/05-notebooks/index.html#code-and-resources",
+    "title": "5. Notebooks",
+    "section": "Code and resources",
+    "text": "Code and resources\n\nRepository: github.com/Sweet-Twixie",
+    "crumbs": [
+      "Course",
+      "5. Notebooks"
+    ]
+  },
+  {
+    "objectID": "course/04-maths/index.html",
+    "href": "course/04-maths/index.html",
+    "title": "4. The maths",
+    "section": "",
+    "text": "This module builds the theory in four steps, each depending on the one before.",
+    "crumbs": [
+      "Course",
+      "4. The maths"
+    ]
+  },
+  {
+    "objectID": "course/04-maths/index.html#code-and-resources",
+    "href": "course/04-maths/index.html#code-and-resources",
+    "title": "4. The maths",
+    "section": "Code and resources",
+    "text": "Code and resources\n\nRepository: github.com/Sweet-Twixie",
+    "crumbs": [
+      "Course",
+      "4. The maths"
+    ]
+  },
+  {
+    "objectID": "course/04-maths/vectorisation.html",
+    "href": "course/04-maths/vectorisation.html",
+    "title": "Vectorisation",
+    "section": "",
+    "text": "Most machine-learning models need fixed-length vectors, but persistence diagrams are multisets of points of varying size.",
+    "crumbs": [
+      "Course",
+      "4. The maths",
+      "Vectorisation"
+    ]
+  },
+  {
+    "objectID": "course/04-maths/vectorisation.html#common-approaches",
+    "href": "course/04-maths/vectorisation.html#common-approaches",
+    "title": "Vectorisation",
+    "section": "Common approaches",
+    "text": "Common approaches\n\nSummary statistics: number of bars, total and maximum persistence, persistent entropy.\nBetti curves: \\beta_k(r) sampled on a grid.\nPersistence landscapes (Bubenik, 2015): a sequence of piecewise-linear functions.\nPersistence images (Adams et al., 2017): a weighted sum of Gaussians on the diagram, pixelated into a grid.\n\n✏️ Compare them: stability, interpretability, cost.",
+    "crumbs": [
+      "Course",
+      "4. The maths",
+      "Vectorisation"
+    ]
+  },
+  {
+    "objectID": "course/04-maths/vectorisation.html#code-and-resources",
+    "href": "course/04-maths/vectorisation.html#code-and-resources",
+    "title": "Vectorisation",
+    "section": "Code and resources",
+    "text": "Code and resources\n\nRepository: github.com/Sweet-Twixie",
+    "crumbs": [
+      "Course",
+      "4. The maths",
+      "Vectorisation"
+    ]
+  },
+  {
+    "objectID": "course/04-maths/algebraic-topology.html",
+    "href": "course/04-maths/algebraic-topology.html",
+    "title": "Algebraic topology",
+    "section": "",
+    "text": "A simplicial complex K is a collection of simplices (vertices, edges, triangles, …) closed under taking faces.",
+    "crumbs": [
+      "Course",
+      "4. The maths",
+      "Algebraic topology"
+    ]
+  },
+  {
+    "objectID": "course/04-maths/algebraic-topology.html#simplicial-complexes",
+    "href": "course/04-maths/algebraic-topology.html#simplicial-complexes",
+    "title": "Algebraic topology",
+    "section": "",
+    "text": "A simplicial complex K is a collection of simplices (vertices, edges, triangles, …) closed under taking faces.",
+    "crumbs": [
+      "Course",
+      "4. The maths",
+      "Algebraic topology"
+    ]
+  },
+  {
+    "objectID": "course/04-maths/algebraic-topology.html#chains-and-boundaries",
+    "href": "course/04-maths/algebraic-topology.html#chains-and-boundaries",
+    "title": "Algebraic topology",
+    "section": "Chains and boundaries",
+    "text": "Chains and boundaries\nThe k-chains C_k(K) are formal sums of k-simplices with coefficients in a field, usually \\mathbb{F}_2. The boundary map sends a simplex to the alternating sum of its faces:\n\n\\partial_k [v_0, \\dots, v_k] = \\sum_{i=0}^{k} (-1)^i [v_0, \\dots, \\hat{v}_i, \\dots, v_k].\n\nThe key identity is \\partial_{k} \\circ \\partial_{k+1} = 0: a boundary has no boundary.",
+    "crumbs": [
+      "Course",
+      "4. The maths",
+      "Algebraic topology"
+    ]
+  },
+  {
+    "objectID": "course/04-maths/algebraic-topology.html#homology",
+    "href": "course/04-maths/algebraic-topology.html#homology",
+    "title": "Algebraic topology",
+    "section": "Homology",
+    "text": "Homology\n\nH_k(K) = \\ker \\partial_k \\,/\\, \\operatorname{im} \\partial_{k+1},\n\\qquad\n\\beta_k = \\dim H_k(K).\n\n\\beta_0 counts connected components, \\beta_1 counts independent loops, \\beta_2 counts voids.\n✏️ Add worked examples: a triangle, a hollow triangle, a torus.",
+    "crumbs": [
+      "Course",
+      "4. The maths",
+      "Algebraic topology"
+    ]
+  },
+  {
+    "objectID": "course/04-maths/algebraic-topology.html#code-and-resources",
+    "href": "course/04-maths/algebraic-topology.html#code-and-resources",
+    "title": "Algebraic topology",
+    "section": "Code and resources",
+    "text": "Code and resources\n\nRepository: github.com/Sweet-Twixie",
+    "crumbs": [
+      "Course",
+      "4. The maths",
+      "Algebraic topology"
+    ]
+  }
+]

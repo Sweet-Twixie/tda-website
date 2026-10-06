@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Shape of Data</title>
+<link>https://sweet-twixie.github.io/tda-website/blog/</link>
+<atom:link href="https://sweet-twixie.github.io/tda-website/blog/index.xml" rel="self" type="application/rss+xml"/>
+<description>A course and blog on topological data analysis.</description>
+<generator>quarto-1.10.19</generator>
+<lastBuildDate>Tue, 06 Oct 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Why I’m writing about topological data analysis</title>
+  <dc:creator>Yuliia Bykhovets</dc:creator>
+  <link>https://sweet-twixie.github.io/tda-website/blog/posts/2026-10-06-welcome/</link>
+  <description><![CDATA[ 
+
+
+
+
+<!-- To write a new post: copy this folder, rename it (date-short-title),
+     and edit the front matter above. -->
+<p>This is a placeholder first post. Replace it with your own introduction.</p>
+<p>Posts are plain Markdown, so you can write maths inline like <img src="https://latex.codecogs.com/png.latex?%5Cbeta_1%20=%201"> or in display:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0AH_k(K)%20=%20%5Cker%20%5Cpartial_k%20%5C,/%5C,%20%5Coperatorname%7Bim%7D%20%5Cpartial_%7Bk+1%7D.%0A"></p>
+<p>You can also embed a video:</p>
+<!-- {{< video https://www.youtube.com/watch?v=YOUR_VIDEO_ID >}} -->
+<p>and link to code: <a href="https://github.com/Sweet-Twixie">GitHub repo</a>.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>meta</category>
+  <guid>https://sweet-twixie.github.io/tda-website/blog/posts/2026-10-06-welcome/</guid>
+  <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
