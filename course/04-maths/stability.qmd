@@ -1,0 +1,28 @@
+---
+title: "Stability"
+description: "Why persistence diagrams are robust to noise."
+---
+
+<!-- VIDEO: paste your YouTube link, then delete the comment markers and the /* */ -->
+<!-- {{</* video https://www.youtube.com/watch?v=YOUR_VIDEO_ID */>}} -->
+
+## The bottleneck distance
+
+For diagrams $D_1, D_2$, the bottleneck distance is
+$$
+d_B(D_1, D_2) = \inf_{\gamma} \sup_{x \in D_1} \lVert x - \gamma(x) \rVert_\infty,
+$$
+where $\gamma$ ranges over bijections between the diagrams (points may be matched to the diagonal).
+
+## The stability theorem
+
+For tame functions $f, g$ on a triangulable space (Cohen-Steiner, Edelsbrunner and Harer, 2007):
+$$
+d_B\big(\mathrm{Dgm}(f), \mathrm{Dgm}(g)\big) \le \lVert f - g \rVert_\infty.
+$$
+
+✏️ *Explain what this means for noisy data, and mention Wasserstein distances.*
+
+## Code and resources
+
+- Repository: [github.com/Sweet-Twixie](https://github.com/Sweet-Twixie) <!-- link the lesson's repo -->

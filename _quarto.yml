@@ -1,0 +1,96 @@
+# =============================================================
+#  SITE CONFIGURATION
+#  Navbar, sidebar (course structure), footer and global options.
+# =============================================================
+
+project:
+  type: website
+  output-dir: _site
+
+# Code in notebooks is run on your computer and the results are saved
+# in the _freeze/ folder. Commit that folder so GitHub doesn't need Python.
+execute:
+  freeze: auto
+
+website:
+  title: "Shape of Data"                       # <- site name in the navbar
+  description: "A course and blog on topological data analysis."
+  site-url: "https://sweet-twixie.github.io/tda-website"   # <- change if your repo has another name
+  repo-url: "https://github.com/Sweet-Twixie/tda-website"
+  repo-actions: [source, issue]                # "View source" / "Report an issue" links on each page
+  page-navigation: true                        # previous / next buttons at the bottom of lessons
+  back-to-top-navigation: true
+  search:
+    location: navbar
+    type: overlay
+
+  # ---------- Top navigation ----------
+  navbar:
+    left:
+      - text: "Course"
+        href: course/index.qmd
+      - text: "Blog"
+        href: blog/index.qmd
+      - text: "Articles"
+        href: articles/index.qmd
+    right:
+      - icon: github
+        href: https://github.com/Sweet-Twixie
+        aria-label: "GitHub"
+
+  # ---------- Course sidebar (left) ----------
+  # Add a lesson: create the .qmd file, then list it here.
+  # collapse-level: 1 means sections start closed and expand on click;
+  # the section you're currently reading opens automatically.
+  sidebar:
+    style: docked
+    search: false
+    collapse-level: 1
+    contents:
+      - text: "Course overview"
+        href: course/index.qmd
+
+      - section: "1. Is TDA applicable?"
+        href: course/01-applicability/index.qmd
+        contents:
+          - course/01-applicability/research.qmd
+          - course/01-applicability/industry.qmd
+
+      - text: "2. Potential datasets"
+        href: course/02-datasets.qmd
+
+      - text: "3. What TDA extracts"
+        href: course/03-intuition.qmd
+
+      - section: "4. The maths"
+        href: course/04-maths/index.qmd
+        contents:
+          - course/04-maths/algebraic-topology.qmd
+          - course/04-maths/persistent-homology.qmd
+          - course/04-maths/stability.qmd
+          - course/04-maths/vectorisation.qmd
+
+      - section: "5. Notebooks"
+        href: course/05-notebooks/index.qmd
+        contents:
+          - course/05-notebooks/first-persistence-diagram.qmd
+
+  # ---------- Footer ----------
+  page-footer:
+    left: "© 2026 Yuliia Bykhovets"
+    right: "Built with [Quarto](https://quarto.org)"
+
+# ---------- Default look of every page ----------
+format:
+  html:
+    theme:
+      light: [cosmo, theme.scss]               # all colours and fonts live in theme.scss
+    toc: true
+    toc-location: right
+    toc-title: "On this page"
+    html-math-method: katex
+    code-copy: true
+    code-overflow: wrap
+    smooth-scroll: true
+    link-external-newwindow: true
+    lang: en-GB

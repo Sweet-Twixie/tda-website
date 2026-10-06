@@ -1,0 +1,20 @@
+---
+title: "2. Potential datasets"
+description: "Public datasets that suit topological analysis."
+---
+
+<!-- VIDEO: paste your YouTube link, then delete the comment markers and the /* */ -->
+<!-- {{</* video https://www.youtube.com/watch?v=YOUR_VIDEO_ID */>}} -->
+
+| Data type | Example dataset | What topology might show |
+|---|---|---|
+| Point clouds | ✏️ | ✏️ |
+| Images | ✏️ | ✏️ |
+| Time series | ✏️ | ✏️ |
+| Networks | ✏️ | ✏️ |
+
+✏️ *Add notes on each dataset: size, licence, how to load it.*
+
+## Code and resources
+
+- Repository: [github.com/Sweet-Twixie](https://github.com/Sweet-Twixie) <!-- link the lesson's repo -->

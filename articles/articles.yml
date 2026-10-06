@@ -1,0 +1,57 @@
+# Each entry needs: title, author, date (year is enough as YYYY-01-01),
+# categories (topics, used for filtering) and path (link to the paper).
+# Check links before publishing.
+
+- title: "Topological persistence and simplification"
+  author: "Edelsbrunner, Letscher, Zomorodian"
+  date: 2002-01-01
+  categories: [persistent homology, foundations]
+  path: https://doi.org/10.1007/s00454-002-2885-2
+
+- title: "Computing persistent homology"
+  author: "Zomorodian, Carlsson"
+  date: 2005-01-01
+  categories: [persistent homology, computation]
+  path: https://doi.org/10.1007/s00454-004-1146-y
+
+- title: "Stability of persistence diagrams"
+  author: "Cohen-Steiner, Edelsbrunner, Harer"
+  date: 2007-01-01
+  categories: [stability, foundations]
+  path: https://doi.org/10.1007/s00454-006-1276-5
+
+- title: "Barcodes: the persistent topology of data"
+  author: "Ghrist"
+  date: 2008-01-01
+  categories: [survey]
+  path: https://doi.org/10.1090/S0273-0979-07-01191-3
+
+- title: "Topology and data"
+  author: "Carlsson"
+  date: 2009-01-01
+  categories: [survey]
+  path: https://doi.org/10.1090/S0273-0979-09-01249-X
+
+- title: "Statistical topological data analysis using persistence landscapes"
+  author: "Bubenik"
+  date: 2015-01-01
+  categories: [vectorisation, statistics]
+  path: https://arxiv.org/abs/1207.6437
+
+- title: "A roadmap for the computation of persistent homology"
+  author: "Otter, Porter, Tillmann, Grindrod, Harrington"
+  date: 2017-01-01
+  categories: [computation, survey]
+  path: https://arxiv.org/abs/1506.08903
+
+- title: "Persistence images: a stable vector representation of persistent homology"
+  author: "Adams et al."
+  date: 2017-01-01
+  categories: [vectorisation, machine learning]
+  path: https://arxiv.org/abs/1507.06217
+
+- title: "An introduction to topological data analysis: fundamental and practical aspects for data scientists"
+  author: "Chazal, Michel"
+  date: 2021-01-01
+  categories: [survey, machine learning]
+  path: https://arxiv.org/abs/1710.04019

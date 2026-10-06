@@ -1,0 +1,20 @@
+---
+title: "TDA in research"
+description: "Fields where topological methods are used in research."
+---
+
+<!-- VIDEO: paste your YouTube link, then delete the comment markers and the /* */ -->
+<!-- {{</* video https://www.youtube.com/watch?v=YOUR_VIDEO_ID */>}} -->
+
+## Areas to cover
+
+✏️ *For each area: the question, the data, what topology added, and a key paper (add it to the [Articles](../../articles/index.qmd) list).*
+
+- Biology and medicine
+- Materials science
+- Neuroscience
+- Image analysis
+
+## Code and resources
+
+- Repository: [github.com/Sweet-Twixie](https://github.com/Sweet-Twixie) <!-- link the lesson's repo -->

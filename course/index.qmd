@@ -1,0 +1,24 @@
+---
+title: "Course overview"
+subtitle: "Topological data analysis, from first questions to working code"
+---
+
+This course is written to be read in order, but each module stands on its own.
+Use the menu on the left to jump around; sections open when you click them.
+
+## How the course is organised
+
+1. **[Is TDA applicable?](01-applicability/index.qmd)** Where topological methods have earned their place in research and industry, and where they haven't.
+2. **[Potential datasets](02-datasets.qmd)** Point clouds, images, time series and networks to practise on.
+3. **[What TDA extracts](03-intuition.qmd)** An intuitive picture of connected components, loops and voids, before any algebra.
+4. **[The maths](04-maths/index.qmd)** Algebraic topology, persistent homology, stability, and turning diagrams into features.
+5. **[Notebooks](05-notebooks/index.qmd)** Python notebooks that put each idea into practice.
+
+## What you need
+
+Comfort with linear algebra and some Python. The algebraic topology is introduced from scratch.
+
+::: {.callout-note}
+## Each lesson includes
+A short video, written notes, and a link to the code on GitHub.
+:::

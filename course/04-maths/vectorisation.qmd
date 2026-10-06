@@ -1,0 +1,22 @@
+---
+title: "Vectorisation"
+description: "Turning persistence diagrams into features for machine learning."
+---
+
+<!-- VIDEO: paste your YouTube link, then delete the comment markers and the /* */ -->
+<!-- {{</* video https://www.youtube.com/watch?v=YOUR_VIDEO_ID */>}} -->
+
+Most machine-learning models need fixed-length vectors, but persistence diagrams are multisets of points of varying size.
+
+## Common approaches
+
+- **Summary statistics**: number of bars, total and maximum persistence, persistent entropy.
+- **Betti curves**: $\beta_k(r)$ sampled on a grid.
+- **Persistence landscapes** (Bubenik, 2015): a sequence of piecewise-linear functions.
+- **Persistence images** (Adams et al., 2017): a weighted sum of Gaussians on the diagram, pixelated into a grid.
+
+✏️ *Compare them: stability, interpretability, cost.*
+
+## Code and resources
+
+- Repository: [github.com/Sweet-Twixie](https://github.com/Sweet-Twixie) <!-- link the lesson's repo -->

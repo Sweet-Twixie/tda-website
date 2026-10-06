@@ -1,0 +1,179 @@
+/*-- scss:defaults --*/
+// =============================================================
+//  THEME: colours, fonts, sizes.
+//  Change the values in the first block and the whole site updates.
+// =============================================================
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+
+// ---- Palette ----
+$parchment:   #F7F0E6;   // page background
+$oat:         #EBDDC9;   // sidebar, navbar, code blocks
+$fawn:        #C9A27E;   // borders, quiet lines
+$acorn:       #A86B3C;   // secondary accent (tags, hover)
+$chestnut:    #6E4224;   // links, buttons
+$walnut:      #3A2A20;   // main text and headings
+$baby-blue:   #C4E3F6;   // highlights: active lesson, selections, marks
+$sky:         #5B9BC8;   // deeper blue for focus rings and blue text
+
+// ---- Map palette onto Bootstrap / Quarto ----
+$body-bg:        $parchment;
+$body-color:     $walnut;
+$primary:        $chestnut;
+$secondary:      $acorn;
+$link-color:     $chestnut;
+$headings-color: $walnut;
+
+$navbar-bg:  $oat;
+$navbar-fg:  $walnut;
+$navbar-hl:  $chestnut;
+
+$sidebar-bg: $oat;
+$sidebar-fg: $walnut;
+$sidebar-hl: $chestnut;
+
+$footer-bg:  $parchment;
+$footer-fg:  lighten($walnut, 25%);
+
+$code-block-bg: $oat;
+$code-color:    $chestnut;
+
+$callout-color-note:      $sky;
+$callout-color-tip:       $acorn;
+$callout-color-important: $chestnut;
+
+// ---- Fonts ----
+$font-family-sans-serif: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+$headings-font-family:   "Young Serif", Georgia, serif;
+$font-family-monospace:  "JetBrains Mono", ui-monospace, monospace;
+$font-size-base:         1.0625rem;   // 17px body text
+$line-height-base:       1.65;
+$headings-font-weight:   400;          // Young Serif has one weight; size carries hierarchy
+
+$border-radius: 0.375rem;
+
+
+/*-- scss:rules --*/
+// =============================================================
+//  CUSTOM STYLES
+// =============================================================
+
+// ---- Type scale ----
+h1, .h1 { font-size: 2.4rem; line-height: 1.15; letter-spacing: -0.01em; }
+h2, .h2 { font-size: 1.7rem; line-height: 1.2; margin-top: 2.5rem; }
+h3, .h3 { font-size: 1.3rem; margin-top: 2rem; }
+
+main p, main li { max-width: 68ch; }
+
+// ---- Links ----
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+a:hover { text-decoration-color: $sky; text-decoration-thickness: 2px; }
+
+// ---- Highlights in baby blue ----
+::selection { background: $baby-blue; color: $walnut; }
+mark { background: $baby-blue; color: $walnut; padding: 0 0.15em; border-radius: 2px; }
+
+:focus-visible {
+  outline: 2px solid $sky;
+  outline-offset: 2px;
+}
+
+// ---- Navbar ----
+.navbar { border-bottom: 1px solid $fawn; }
+.navbar-title { font-family: $headings-font-family; font-size: 1.25rem; }
+
+// ---- Course sidebar ----
+#quarto-sidebar {
+  border-right: 1px solid $fawn;
+
+  .sidebar-item-section > .sidebar-item-container .sidebar-item-text {
+    font-weight: 700;
+  }
+  .sidebar-link { border-radius: 4px; padding: 0.15rem 0.5rem; }
+  .sidebar-link.active {
+    background: $baby-blue;
+    color: $walnut;
+    font-weight: 700;
+  }
+  .sidebar-link:hover:not(.active) { background: rgba($baby-blue, 0.45); }
+}
+
+// ---- Right-hand table of contents ----
+#TOC .nav-link.active { color: $chestnut; border-left-color: $sky; }
+
+// ---- Code ----
+div.sourceCode { border: 1px solid $fawn; }
+
+// ---- Blockquotes ----
+blockquote {
+  border-left: 3px solid $baby-blue;
+  color: lighten($walnut, 15%);
+}
+
+// ---- Buttons ----
+.btn-primary {
+  --bs-btn-bg: #{$chestnut};
+  --bs-btn-border-color: #{$chestnut};
+  --bs-btn-hover-bg: #{$walnut};
+  --bs-btn-hover-border-color: #{$walnut};
+}
+
+// =============================================================
+//  LANDING PAGE
+// =============================================================
+.landing {
+  max-width: 46rem;
+  margin: 3rem 0 4rem;
+
+  .site-name {
+    font-family: $headings-font-family;
+    font-size: clamp(2.8rem, 7vw, 4.5rem);
+    line-height: 1;
+    margin: 0 0 1rem;
+  }
+  .lede { font-size: 1.2rem; max-width: 36rem; }
+  .start-links a { margin-right: 1.25rem; }
+  .start-links .btn { padding: 0.55rem 1.1rem; }
+}
+
+// The persistence barcode under the title.
+// Bars "grow" once on load, like a filtration.
+.barcode {
+  margin: 2.5rem 0 3rem;
+  max-width: 34rem;
+
+  svg { width: 100%; height: auto; display: block; }
+  .bar {
+    transform-box: fill-box;
+    transform-origin: left center;
+    animation: grow 0.9s cubic-bezier(.2,.7,.2,1) both;
+    animation-delay: calc(var(--i) * 60ms);
+  }
+  figcaption { font-size: 0.85rem; color: lighten($walnut, 30%); margin-top: 0.5rem; }
+}
+@keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .barcode .bar { animation: none; }
+}
+
+.sections {
+  border-top: 1px solid $fawn;
+
+  .section-row {
+    display: grid;
+    grid-template-columns: 9rem 1fr;
+    gap: 1rem;
+    padding: 1.1rem 0;
+    border-bottom: 1px solid $fawn;
+  }
+  .section-row p { margin: 0; }
+  .section-row a { font-family: $headings-font-family; font-size: 1.25rem; }
+
+  @media (max-width: 576px) {
+    .section-row { grid-template-columns: 1fr; gap: 0.25rem; }
+  }
+}

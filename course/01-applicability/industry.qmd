@@ -1,0 +1,19 @@
+---
+title: "TDA in industry"
+description: "Where topological methods are used commercially, and their limits."
+---
+
+<!-- VIDEO: paste your YouTube link, then delete the comment markers and the /* */ -->
+<!-- {{</* video https://www.youtube.com/watch?v=YOUR_VIDEO_ID */>}} -->
+
+## Use cases
+
+✏️ *Write here.*
+
+## Limitations
+
+✏️ *Computational cost, interpretability, how to explain a persistence diagram to a stakeholder.*
+
+## Code and resources
+
+- Repository: [github.com/Sweet-Twixie](https://github.com/Sweet-Twixie) <!-- link the lesson's repo -->

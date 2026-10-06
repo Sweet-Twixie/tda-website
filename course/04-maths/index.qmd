@@ -1,0 +1,21 @@
+---
+title: "4. The maths"
+description: "Algebraic topology, persistent homology, stability and vectorisation."
+---
+
+<!-- VIDEO: paste your YouTube link, then delete the comment markers and the /* */ -->
+<!-- {{</* video https://www.youtube.com/watch?v=YOUR_VIDEO_ID */>}} -->
+
+This module builds the theory in four steps, each depending on the one before.
+
+::: {.callout-tip}
+## In this module
+1. [Algebraic topology](algebraic-topology.qmd): simplicial complexes and homology
+2. [Persistent homology](persistent-homology.qmd): homology across a filtration
+3. [Stability](stability.qmd): why small changes in data give small changes in diagrams
+4. [Vectorisation](vectorisation.qmd): turning diagrams into features for machine learning
+:::
+
+## Code and resources
+
+- Repository: [github.com/Sweet-Twixie](https://github.com/Sweet-Twixie) <!-- link the lesson's repo -->

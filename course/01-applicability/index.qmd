@@ -1,0 +1,24 @@
+---
+title: "1. Is TDA applicable?"
+description: "Research and industry potential of topological data analysis."
+---
+
+<!-- VIDEO: paste your YouTube link, then delete the comment markers and the /* */ -->
+<!-- {{</* video https://www.youtube.com/watch?v=YOUR_VIDEO_ID */>}} -->
+
+TDA is useful when the *shape* of data carries information that distances or averages miss: loops, clusters that merge and split, holes in a configuration space.
+This module looks at where that has paid off, and where simpler methods do just as well.
+
+::: {.callout-tip}
+## In this module
+- [TDA in research](research.qmd)
+- [TDA in industry](industry.qmd)
+:::
+
+## When to reach for TDA
+
+✏️ *Write your criteria here: what properties of a problem suggest topology will help?*
+
+## Code and resources
+
+- Repository: [github.com/Sweet-Twixie](https://github.com/Sweet-Twixie) <!-- link the lesson's repo -->

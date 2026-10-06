@@ -1,0 +1,31 @@
+---
+title: "Persistent homology"
+description: "Tracking homology through a filtration."
+---
+
+<!-- VIDEO: paste your YouTube link, then delete the comment markers and the /* */ -->
+<!-- {{</* video https://www.youtube.com/watch?v=YOUR_VIDEO_ID */>}} -->
+
+## Filtrations
+
+A *filtration* is a nested sequence of complexes
+$$
+\emptyset = K_0 \subseteq K_1 \subseteq \dots \subseteq K_n = K.
+$$
+
+For a point cloud $X$, the Vietoris–Rips complex $\mathrm{VR}_r(X)$ contains a simplex for every finite set of points with pairwise distances at most $r$. Increasing $r$ gives a filtration.
+
+## Persistent homology groups
+
+Inclusions induce maps $H_k(K_i) \to H_k(K_j)$ for $i \le j$. The persistent homology groups are their images:
+$$
+H_k^{i,j} = \operatorname{im}\big( H_k(K_i) \to H_k(K_j) \big).
+$$
+
+Each homology class has a *birth* and a *death*. The multiset of pairs $(b, d)$ is the **persistence diagram**; drawn as intervals, it is the **barcode**.
+
+✏️ *Add a worked example and pictures.*
+
+## Code and resources
+
+- Repository: [github.com/Sweet-Twixie](https://github.com/Sweet-Twixie) <!-- link the lesson's repo -->

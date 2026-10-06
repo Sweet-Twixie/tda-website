@@ -1,0 +1,72 @@
+---
+pagetitle: "Shape of Data"
+page-layout: article
+sidebar: false
+toc: false
+---
+
+<!-- ===========================================================
+     LANDING PAGE
+     Edit the text freely. Styles for this page are at the bottom
+     of theme.scss under "LANDING PAGE".
+     =========================================================== -->
+
+::: {.landing}
+
+# Shape of Data {.site-name .unlisted}
+
+::: {.lede}
+A course and blog on topological data analysis: the maths behind persistent homology, and how to use it on real data.
+:::
+
+::: {.start-links}
+[Start the course](course/index.qmd){.btn .btn-primary} [Read the blog](blog/index.qmd)
+:::
+
+```{=html}
+<figure class="barcode" aria-hidden="true">
+  <svg viewBox="0 0 540 190" xmlns="http://www.w3.org/2000/svg">
+    <!-- Each rect is a bar in a persistence barcode: x = birth, width = lifetime.
+         Short brown bars are noise; the long blue bar is the feature that persists. -->
+    <rect class="bar" style="--i:0"  x="0"   y="0"   width="520" height="8" rx="2" fill="#6E4224"/>
+    <rect class="bar" style="--i:1"  x="0"   y="14"  width="62"  height="8" rx="2" fill="#A86B3C"/>
+    <rect class="bar" style="--i:2"  x="0"   y="28"  width="41"  height="8" rx="2" fill="#A86B3C"/>
+    <rect class="bar" style="--i:3"  x="0"   y="42"  width="88"  height="8" rx="2" fill="#A86B3C"/>
+    <rect class="bar" style="--i:4"  x="0"   y="56"  width="27"  height="8" rx="2" fill="#C9A27E"/>
+    <rect class="bar" style="--i:5"  x="0"   y="70"  width="54"  height="8" rx="2" fill="#C9A27E"/>
+    <rect class="bar" style="--i:6"  x="0"   y="84"  width="19"  height="8" rx="2" fill="#C9A27E"/>
+    <rect class="bar" style="--i:7"  x="96"  y="108" width="38"  height="8" rx="2" fill="#C9A27E"/>
+    <rect class="bar" style="--i:8"  x="118" y="122" width="300" height="8" rx="2" fill="#8EC4E8"/>
+    <rect class="bar" style="--i:9"  x="140" y="136" width="46"  height="8" rx="2" fill="#C9A27E"/>
+    <rect class="bar" style="--i:10" x="171" y="150" width="22"  height="8" rx="2" fill="#C9A27E"/>
+    <line x1="0" y1="100" x2="540" y2="100" stroke="#C9A27E" stroke-width="1" stroke-dasharray="3 4"/>
+    <text x="540" y="96"  text-anchor="end" font-size="11" fill="#7a6555">H₀</text>
+    <text x="540" y="182" text-anchor="end" font-size="11" fill="#7a6555">H₁</text>
+  </svg>
+  <figcaption>A persistence barcode of a noisy circle: one loop outlives everything else.</figcaption>
+</figure>
+```
+
+::: {.sections}
+
+::: {.section-row}
+[Course](course/index.qmd)
+
+From whether TDA is worth using, through the algebraic topology, to working Python notebooks.
+:::
+
+::: {.section-row}
+[Blog](blog/index.qmd)
+
+Shorter posts on papers, experiments and applications.
+:::
+
+::: {.section-row}
+[Articles](articles/index.qmd)
+
+A searchable list of TDA papers, filterable by topic.
+:::
+
+:::
+
+:::

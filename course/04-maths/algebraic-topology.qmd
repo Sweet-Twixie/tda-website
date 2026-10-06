@@ -1,0 +1,38 @@
+---
+title: "Algebraic topology"
+description: "Simplicial complexes, chain complexes and homology."
+---
+
+<!-- VIDEO: paste your YouTube link, then delete the comment markers and the /* */ -->
+<!-- {{</* video https://www.youtube.com/watch?v=YOUR_VIDEO_ID */>}} -->
+
+## Simplicial complexes
+
+A *simplicial complex* $K$ is a collection of simplices (vertices, edges, triangles, ...) closed under taking faces.
+
+## Chains and boundaries
+
+The $k$-chains $C_k(K)$ are formal sums of $k$-simplices with coefficients in a field, usually $\mathbb{F}_2$.
+The boundary map sends a simplex to the alternating sum of its faces:
+
+$$
+\partial_k [v_0, \dots, v_k] = \sum_{i=0}^{k} (-1)^i [v_0, \dots, \hat{v}_i, \dots, v_k].
+$$
+
+The key identity is $\partial_{k} \circ \partial_{k+1} = 0$: a boundary has no boundary.
+
+## Homology
+
+$$
+H_k(K) = \ker \partial_k \,/\, \operatorname{im} \partial_{k+1},
+\qquad
+\beta_k = \dim H_k(K).
+$$
+
+$\beta_0$ counts connected components, $\beta_1$ counts independent loops, $\beta_2$ counts voids.
+
+✏️ *Add worked examples: a triangle, a hollow triangle, a torus.*
+
+## Code and resources
+
+- Repository: [github.com/Sweet-Twixie](https://github.com/Sweet-Twixie) <!-- link the lesson's repo -->

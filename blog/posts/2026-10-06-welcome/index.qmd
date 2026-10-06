@@ -1,0 +1,24 @@
+---
+title: "Why I'm writing about topological data analysis"
+description: "What this site is for and how it's organised."
+date: 2026-10-06
+author: "Yuliia Bykhovets"
+categories: [meta]
+---
+
+<!-- To write a new post: copy this folder, rename it (date-short-title),
+     and edit the front matter above. -->
+
+This is a placeholder first post. Replace it with your own introduction.
+
+Posts are plain Markdown, so you can write maths inline like $\beta_1 = 1$ or in display:
+
+$$
+H_k(K) = \ker \partial_k \,/\, \operatorname{im} \partial_{k+1}.
+$$
+
+You can also embed a video:
+
+<!-- {{</* video https://www.youtube.com/watch?v=YOUR_VIDEO_ID */>}} -->
+
+and link to code: [GitHub repo](https://github.com/Sweet-Twixie).

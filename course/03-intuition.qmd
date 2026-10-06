@@ -1,0 +1,23 @@
+---
+title: "3. What TDA extracts"
+description: "An intuitive picture of what topological features are, before any algebra."
+---
+
+<!-- VIDEO: paste your YouTube link, then delete the comment markers and the /* */ -->
+<!-- {{</* video https://www.youtube.com/watch?v=YOUR_VIDEO_ID */>}} -->
+
+Imagine drawing a ball of radius $r$ around every data point and slowly increasing $r$.
+
+- At small $r$ every point is its own **component**.
+- As $r$ grows, balls overlap and components **merge**.
+- Sometimes the balls form a ring around an empty region: a **loop** is born.
+- Grow $r$ further and the hole fills in: the loop **dies**.
+
+Features that survive for a long range of $r$ are likely to be real structure; short-lived ones are usually noise.
+Recording every birth and death gives a *persistence barcode* or *persistence diagram*.
+
+✏️ *Add figures or an animation here.*
+
+## Code and resources
+
+- Repository: [github.com/Sweet-Twixie](https://github.com/Sweet-Twixie) <!-- link the lesson's repo -->

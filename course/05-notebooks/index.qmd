@@ -1,0 +1,22 @@
+---
+title: "5. Notebooks"
+description: "Python notebooks that put each idea into practice."
+---
+
+<!-- VIDEO: paste your YouTube link, then delete the comment markers and the /* */ -->
+<!-- {{</* video https://www.youtube.com/watch?v=YOUR_VIDEO_ID */>}} -->
+
+Each notebook can be read here or run yourself from the repository.
+
+| Notebook | Covers |
+|---|---|
+| [First persistence diagram](first-persistence-diagram.qmd) | Vietoris–Rips persistence on a noisy circle |
+
+::: {.callout-note}
+## Adding a notebook
+Put a `.qmd` or `.ipynb` file in `course/05-notebooks/` and list it in the sidebar in `_quarto.yml`.
+:::
+
+## Code and resources
+
+- Repository: [github.com/Sweet-Twixie](https://github.com/Sweet-Twixie) <!-- link the lesson's repo -->
