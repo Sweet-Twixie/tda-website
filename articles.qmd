@@ -1,0 +1,24 @@
+---
+title: "Article database"
+subtitle: "4,755 arXiv papers on topological data analysis, its applications and its maths background. Click a tag to filter, or search by title or author."
+listing:
+  id: papers
+  contents: articles/papers.yml
+  type: table
+  fields: [date, title, author, categories]
+  field-display-names:
+    date: "Published"
+    title: "Title"
+    author: "Authors"
+    categories: "Tags"
+  sort: "date desc"
+  sort-ui: [date, title]
+  filter-ui: [title, author]
+  categories: true
+  page-size: 50
+  date-format: "YYYY-MM-DD"
+---
+
+Raw scrape from the arXiv API, last updated 2026-10-06. Tags come from the search
+queries that matched each paper, so a paper can carry several, and some will be
+noisy until the papers are cleaned and classified.
