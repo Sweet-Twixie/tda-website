@@ -1,71 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://sweet-twixie.github.io/tda-website/course/02-datasets.html</loc>
-    <lastmod>2026-10-07T22:02:24.407Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sweet-twixie.github.io/tda-website/course/04-maths/persistent-homology.html</loc>
-    <lastmod>2026-10-07T22:02:24.407Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sweet-twixie.github.io/tda-website/course/04-maths/stability.html</loc>
-    <lastmod>2026-10-07T22:02:24.407Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sweet-twixie.github.io/tda-website/course/05-notebooks/first-persistence-diagram.html</loc>
-    <lastmod>2026-10-07T22:02:24.407Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sweet-twixie.github.io/tda-website/course/index.html</loc>
-    <lastmod>2026-10-07T22:02:24.407Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sweet-twixie.github.io/tda-website/course/01-applicability/industry.html</loc>
-    <lastmod>2026-10-07T22:02:24.407Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sweet-twixie.github.io/tda-website/course/03-intuition.html</loc>
-    <lastmod>2026-10-07T22:02:24.407Z</lastmod>
-  </url>
-  <url>
     <loc>https://sweet-twixie.github.io/tda-website/index.html</loc>
-    <lastmod>2026-10-07T22:02:24.438Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sweet-twixie.github.io/tda-website/blog/index.html</loc>
-    <lastmod>2026-10-07T22:02:24.406Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sweet-twixie.github.io/tda-website/blog/posts/2026-10-06-welcome/index.html</loc>
-    <lastmod>2026-10-07T22:02:24.407Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sweet-twixie.github.io/tda-website/articles/index.html</loc>
-    <lastmod>2026-10-07T22:02:24.406Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sweet-twixie.github.io/tda-website/course/01-applicability/index.html</loc>
-    <lastmod>2026-10-07T22:02:24.407Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sweet-twixie.github.io/tda-website/course/01-applicability/research.html</loc>
-    <lastmod>2026-10-07T22:02:24.407Z</lastmod>
+    <lastmod>2026-10-06T21:53:30.833Z</lastmod>
   </url>
   <url>
     <loc>https://sweet-twixie.github.io/tda-website/course/05-notebooks/index.html</loc>
-    <lastmod>2026-10-07T22:02:24.407Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sweet-twixie.github.io/tda-website/course/04-maths/index.html</loc>
-    <lastmod>2026-10-07T22:02:24.407Z</lastmod>
+    <lastmod>2026-10-06T21:53:30.832Z</lastmod>
   </url>
   <url>
     <loc>https://sweet-twixie.github.io/tda-website/course/04-maths/vectorisation.html</loc>
-    <lastmod>2026-10-07T22:02:24.407Z</lastmod>
+    <lastmod>2026-10-06T21:53:30.830Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sweet-twixie.github.io/tda-website/course/04-maths/persistent-homology.html</loc>
+    <lastmod>2026-10-06T21:53:30.829Z</lastmod>
   </url>
   <url>
     <loc>https://sweet-twixie.github.io/tda-website/course/04-maths/algebraic-topology.html</loc>
-    <lastmod>2026-10-07T22:02:24.407Z</lastmod>
+    <lastmod>2026-10-06T21:53:30.827Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sweet-twixie.github.io/tda-website/course/02-datasets.html</loc>
+    <lastmod>2026-10-06T21:53:30.825Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sweet-twixie.github.io/tda-website/course/01-applicability/industry.html</loc>
+    <lastmod>2026-10-06T21:53:30.824Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sweet-twixie.github.io/tda-website/blog/posts/2026-10-06-welcome/index.html</loc>
+    <lastmod>2026-10-06T21:53:30.822Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sweet-twixie.github.io/tda-website/articles.html</loc>
+    <lastmod>2026-10-07T22:04:37.696Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sweet-twixie.github.io/tda-website/articles/index.html</loc>
+    <lastmod>2026-10-08T19:50:48.160Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sweet-twixie.github.io/tda-website/blog/index.html</loc>
+    <lastmod>2026-10-06T21:53:30.820Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sweet-twixie.github.io/tda-website/course/01-applicability/index.html</loc>
+    <lastmod>2026-10-06T21:53:30.823Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sweet-twixie.github.io/tda-website/course/01-applicability/research.html</loc>
+    <lastmod>2026-10-06T21:53:30.824Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sweet-twixie.github.io/tda-website/course/03-intuition.html</loc>
+    <lastmod>2026-10-06T21:53:30.826Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sweet-twixie.github.io/tda-website/course/04-maths/index.html</loc>
+    <lastmod>2026-10-06T21:53:30.828Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sweet-twixie.github.io/tda-website/course/04-maths/stability.html</loc>
+    <lastmod>2026-10-06T21:53:30.829Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sweet-twixie.github.io/tda-website/course/05-notebooks/first-persistence-diagram.html</loc>
+    <lastmod>2026-10-06T21:53:30.831Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sweet-twixie.github.io/tda-website/course/index.html</loc>
+    <lastmod>2026-10-06T21:53:30.833Z</lastmod>
   </url>
 </urlset>

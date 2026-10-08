@@ -10,7 +10,7 @@
 <atom:link href="https://sweet-twixie.github.io/tda-website/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>A course and blog on topological data analysis.</description>
 <generator>quarto-1.10.19</generator>
-<lastBuildDate>Tue, 06 Oct 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 05 Oct 2026 23:00:00 GMT</lastBuildDate>
 <item>
   <title>Why I’m writing about topological data analysis</title>
   <dc:creator>Yuliia Bykhovets</dc:creator>
@@ -34,7 +34,7 @@
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>meta</category>
   <guid>https://sweet-twixie.github.io/tda-website/blog/posts/2026-10-06-welcome/</guid>
-  <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+  <pubDate>Mon, 05 Oct 2026 23:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
