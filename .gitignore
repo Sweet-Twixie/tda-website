@@ -3,5 +3,8 @@
 .venv/
 __pycache__/
 .ipynb_checkpoints/
+/site_libs/
+articles/index.html
+articles/index-listing.json
 
 **/*.quarto_ipynb
